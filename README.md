@@ -8,3 +8,8 @@ Fandel Lin, Shiuan-Tyng Lin, Jie-Yu Fang, Hsun-Ping Hsieh
 WebConference'20
 #### Link
 DOI: https://doi.org/10.1145/3366424.3382717
+#
+#
+#
+#### Acknowledgment
+Leaflet.MovingMarker from ewoken (https://github.com/ewoken/Leaflet.MovingMarker)
