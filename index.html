@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Traffic Flow Simulation Demo </title>
+
+    <!-- META INFORMATION -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <meta name="description" content="Traffic Simulation Demonstration">
+    <meta name="keywords" content="Tainan Traffic Simulation">
+    <meta name="author" content="Fandel">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+
+
+<body>
+
+
+    <main>
+        <h1> Traffic Flow Simulation Demo </h1>
+		<section id="banner">
+			<h2>TRAFFIC FLOW SIMULATION DEMO</h2>
+		</section>
+		
+        <section>
+			<div id="table">
+				<div id="blocked">
+				</div>
+				<div id="value">
+					<h3>Current Time:</h3>
+					<span id="time"></span>　
+					<h3>Active Agents:</h3>
+					<span id="count"></span>　
+				</div>
+				<div id="graph">
+					<h3>Agent Appearance:</h3>
+					<canvas id="canvas"></canvas>
+					<h3>Average Travel Time:</h3>
+					<canvas id="canvas2"></canvas>
+				</div>
+			</div>
+            <div id="map">
+            </div>
+        </section>
+
+
+    </main>
+	
+	
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch,Promise"></script>
+  <script src="https://cdn.maptiler.com/ol/v6.0.0/ol.js"></script>
+  <script src="https://cdn.maptiler.com/ol-mapbox-style/v5.0.2/olms.js"></script>
+    <link rel="stylesheet" href="https://cdn.maptiler.com/ol/v6.0.0/ol.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script type="text/javascript" src="MovingMarker.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>
